@@ -28,13 +28,13 @@ start = time.time()
 # TODO: filter image in x direction (sobel(gray, filter_x))
 end = time.time()
 duration = end-start
-print("Duration in milliseconds: ", duration*1000)
+#print("Duration in milliseconds: ", duration*1000)
 
 start = time.time()
 # TODO: filter image in y direction (sobel(gray, filter_y))
 end = time.time()
 duration = end-start
-print("Duration in milliseconds: ", duration*1000)
+#print("Duration in milliseconds: ", duration*1000)
 
 
 # TODO compute Gradient magnitude
